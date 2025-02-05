@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid black;
+  gap: 20px;
+}
+
+.text {
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Добавляем три точки в конце */
+  white-space: nowrap;
+}
